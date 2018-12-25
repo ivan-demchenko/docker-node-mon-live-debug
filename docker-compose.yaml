@@ -4,5 +4,6 @@ services:
     build: .
     ports:
       - "9229:9229"
+      - "3000:3000"
     volumes:
       - "./src:/app/src"

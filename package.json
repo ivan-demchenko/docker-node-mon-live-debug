@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "develop": "fuser -k 9229/tcp; node --inspect=0.0.0.0 ./src/index.js",
-    "start": "nodemon --delay 80ms --watch ./src --exec 'npm run develop'"
+    "develop": "node --inspect=0.0.0.0 ./src/index.js",
+    "start": "nodemon --watch ./src --exec 'npm run develop'"
   },
   "keywords": [],
   "author": "Ivan Demchenko (raqy.style@gmail.com)",
